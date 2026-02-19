@@ -16,7 +16,11 @@ Este es un proyecto de landing page premium diseñada para **Hermanos Asesores**
 - `/images`: Recursos visuales generados por IA.
 - Archivos `.php`: Componentes para el tema de WordPress.
 
+## Descarga del Tema
+El archivo listo para instalar en WordPress es: `hermanos-asesores-wordpress.zip`.
+
 ## Instrucciones para WordPress
-1. Sube la carpeta del proyecto a `wp-content/themes/`.
-2. Activa el tema desde el panel de administración de WordPress.
-3. Asegúrate de que las rutas de las imágenes apunten correctamente una vez en el servidor.
+1. Ve a tu panel de WordPress > Apariencia > Temas > Añadir nuevo.
+2. Haz clic en "Subir tema" y selecciona el archivo `hermanos-asesores-wordpress.zip`.
+3. Haz clic en "Instalar ahora" y luego en "Activar".
+4. ¡Listo! Tu landing page premium estará funcionando.
