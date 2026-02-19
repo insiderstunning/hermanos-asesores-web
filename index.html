@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermanos Asesores | Elevando tu Futuro Financiero</title>
+    <meta name="description" content="Asesoría financiera premium para asegurar tu futuro. Estrategias personalizadas y gestión de patrimonio con Hermanos Asesores.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="Hermanos Asesores Logo">
+                <span>Hermanos Asesores</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#testomonios">Testimonios</a></li>
+                <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text-area">
+                    <span class="badge">Líderes en Asesoría Financiera</span>
+                    <h1 class="hero-title">Expertos en tu <span class="text-gradient">tranquilidad</span> financiera.</h1>
+                    <p class="hero-description">Estrategias personalizadas para el crecimiento y protección de tu patrimonio. Te acompañamos en cada paso hacia tu independencia económica.</p>
+                    <div class="hero-ctas">
+                        <a href="#contacto" class="btn btn-primary">Empezar ahora</a>
+                        <a href="#servicios" class="btn btn-secondary">Nuestros servicios</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-card hero-image-wrapper">
+                        <img src="images/hero_visual.png" alt="Visual Financiero Premium">
+                    </div>
+                    <div class="glow-sphere"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metrics / Social Proof -->
+        <section class="metrics-section">
+            <div class="container metrics-grid">
+                <div class="metric-item">
+                    <h3 class="metric-number" data-target="500">0</h3>
+                    <p class="metric-label">Clientes Satisfechos</p>
+                </div>
+                <div class="metric-item">
+                    <h3 class="metric-number" data-target="150">0</h3>
+                    <p class="metric-label">Millones Gestionados</p>
+                </div>
+                <div class="metric-item">
+                    <h3 class="metric-number" data-target="15">0</h3>
+                    <p class="metric-label">Años de Experiencia</p>
+                </div>
+                <div class="metric-item">
+                    <h3 class="metric-number" data-target="98">0</h3>
+                    <p class="metric-label">Tasa de Retención %</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Nuestras Soluciones</span>
+                    <h2 class="section-title">Servicios diseñados para tu <span class="text-gradient">crecimiento</span></h2>
+                </div>
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front glass-card">
+                                <img src="images/service_1.png" alt="Inversión">
+                                <h3>Gestión de Inversiones</h3>
+                                <p>Optimizamos tu capital con carteras diversificadas y seguras.</p>
+                            </div>
+                            <div class="flip-card-back glass-card">
+                                <h3>Gestión Avanzada</h3>
+                                <p>Análisis de mercado en tiempo real, selección de activos premium y reequilibrio constante de cartera para maximizar retornos.</p>
+                                <a href="#contacto" class="btn btn-white">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front glass-card">
+                                <img src="images/service_2.png" alt="Planificación">
+                                <h3>Planificación Fiscal</h3>
+                                <p>Estructuramos tu patrimonio para una eficiencia tributaria máxima.</p>
+                            </div>
+                            <div class="flip-card-back glass-card">
+                                <h3>Estrategia Fiscal</h3>
+                                <p>Minimizamos tu carga impositiva mediante el uso legal de estructuras sofisticadas y beneficios fiscales vigentes.</p>
+                                <a href="#contacto" class="btn btn-white">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front glass-card">
+                                <img src="images/service_3.png" alt="Patrimonio">
+                                <h3>Protección Patrimonial</h3>
+                                <p>Aseguramos el legado de tu familia para las próximas generaciones.</p>
+                            </div>
+                            <div class="flip-card-back glass-card">
+                                <h3>Legado Seguro</h3>
+                                <p>Soluciones de seguros, sucesiones y blindaje patrimonial ante cualquier imprevisto financiero o legal.</p>
+                                <a href="#contacto" class="btn btn-white">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio / Showcase -->
+        <section class="portfolio-section">
+            <div class="container glass-card showcase-wrapper">
+                <div class="showcase-content">
+                    <h2 class="section-title">Nuestra <span class="text-gradient">Metodología</span></h2>
+                    <p>Combinamos tecnología de vanguardia con un trato humano y cercano para ofrecerte una experiencia financiera inigualable.</p>
+                    <ul class="method-list">
+                        <li><span>01</span> Diagnóstico Inicial Personalizado</li>
+                        <li><span>02</span> Creación de Estrategia a Medida</li>
+                        <li><span>03</span> Implementación y Seguimiento 24/7</li>
+                    </ul>
+                </div>
+                <div class="showcase-image">
+                    <img src="images/hero_visual.png" alt="Estrategia">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testomonios" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Voces de Éxito</span>
+                    <h2 class="section-title">Lo que dicen <span class="text-gradient">nuestros clientes</span></h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card glass-card">
+                        <p class="testimonial-text">"Hermanos Asesores transformó mi forma de ver el dinero. Ahora mi patrimonio crece de forma constante y segura."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Carlos Rodríguez</h4>
+                                <p>Empresario Tech</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <p class="testimonial-text">"La planificación fiscal que realizaron fue impecable. Un ahorro significativo y total tranquilidad legal."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Elena Martínez</h4>
+                                <p>Inversora Independiente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <p class="testimonial-text">"Un equipo profesional y cercano. Se nota que les importa el éxito de sus clientes por encima de todo."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Javier López</h4>
+                                <p>Director Financiero</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section id="sobre-nosotros" class="about-section">
+            <div class="container about-flex">
+                <div class="about-image">
+                    <div class="glass-card">
+                         <img src="images/service_1.png" alt="Equipo">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Una historia de <span class="text-gradient">confianza</span></h2>
+                    <p>Nacimos con la misión de democratizar la asesoría financiera premium. Hermanos Asesores no es solo una firma, es tu socio estratégico en el camino hacia la libertad financiera.</p>
+                    <p>Creemos en la transparencia total, la ética profesional y la excelencia en cada análisis que realizamos.</p>
+                    <a href="#contacto" class="btn btn-secondary">Conoce al equipo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper glass-card">
+                    <div class="contact-info">
+                        <h2 class="section-title">¿Listo para <span class="text-gradient">empezar</span>?</h2>
+                        <p>Déjanos tus datos y un experto se pondrá en contacto contigo en menos de 24 horas.</p>
+                        <div class="contact-details">
+                            <p><strong>📍 Dirección:</strong> Calle Financiera 123, Madrid</p>
+                            <p><strong>📞 Teléfono:</strong> +34 900 123 456</p>
+                            <p><strong>✉️ Correo:</strong> info@hermanosasesores.com</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="nombre" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" rows="4" placeholder="Cuéntanos tu necesidad..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                     <img src="images/logo.png" alt="Logo">
+                     <span>Hermanos Asesores</span>
+                </div>
+                <p>Tu éxito financiero es nuestra prioridad absoluta. Premium Financial Services.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Li</a>
+                    <a href="#" class="social-icon">Tw</a>
+                    <a href="#" class="social-icon">Ig</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hermanos Asesores. Todos los derechos reservados. | <a href="#">Aviso Legal</a> | <a href="#">Privacidad</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
